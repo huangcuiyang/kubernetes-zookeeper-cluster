@@ -64,7 +64,7 @@ Verify the cluster start correct or not
 
 ```sh
 kubectl exec -ti zk-0-2081291772-zwlwk -- /bin/bash
-bash-4.3# zkCli.sh -server zk2:2181 ls /
+bash-4.3# zkCli.sh -server zk-2:2181 ls /
 Connecting to zk2:2181
 2017-01-20 02:16:52,753 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.9-1757313, built on 08/23/2016 06:50 GMT
 2017-01-20 02:16:52,757 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=zk1-4074261018-dbjnw
